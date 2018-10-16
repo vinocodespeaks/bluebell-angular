@@ -1,0 +1,275 @@
+/* COLOR #1e73be */
+/* HEADER */
+
+#header{
+  background-image: url(../img/header.jpeg);
+  background-attachment: fixed;
+  height: 105vh;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  color: white;
+  font-size: 40px;
+} 
+
+/* ABOUT */
+#about-us{
+  background-color: #1e73be;
+}
+
+/* MISSION */
+
+
+/* BLUEBELL ANIMATION */
+text{
+  font-size:4px; 
+  font-family:sans-serif;
+}
+#blue-bell-animation{
+  background-image: url(../img/svg-back.jpg)
+}
+
+/* FOUNDER */
+#founder .founder-details p{
+  text-align: left;
+}
+
+/* EDVENTURE */
+
+
+/* PARTNERS */
+
+#partners .carousel{
+  height: 100vh;
+}
+
+#partners .carousel-item {
+  height: 100vh;
+  background-color: #1e73be;
+  background-image: url(../img/carousel-blue.png);
+}
+
+
+#edventure{
+  background-image: url(../img/edventure.jpg);
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+@media only screen and (max-width: 767px) {
+  /* FOR MOBILE DEVICES */
+  
+  
+  #about-us{
+    min-height: 100vh;
+  }
+  #about-us .section-data{
+    min-height: 100vh;
+  }
+  #about-us .section-heading{
+    /* border-bottom: 2px solid #1e73be; */
+
+  }
+  #about-us .section-title,
+  #about-us .section-content{
+    padding: 20px;
+    text-align: left;
+  }
+
+  /* MISSION */
+
+  #mission{
+    min-height: 100vh;
+  }
+  #mission .section-data{
+    min-height: 100vh;
+  }
+  #mission .section-heading{
+    /* border-bottom: 2px solid #1e73be; */
+
+  }
+  #mission .section-title,
+  #mission .section-content{
+    padding: 20px;
+    text-align: left;
+  }
+
+  /* FOUNDER */
+  #founder .founder-image{
+    height: 50vh;
+    background-color: #1e73be;
+  }
+
+  #founder .founder-details{
+    padding: 50px 20px 50px 20px;
+  }
+  #founder .founder-details p{
+    margin-top: 20px;
+  }
+
+  /* EDVENTURE */
+  #edventure{
+    min-height: 140vh;
+
+  }
+
+  #edventure .section-title{
+    padding-top: 30px;
+  }
+
+  #edventure .card-container .card {
+    background-color: rgba(0,0,0,0.6);
+    min-height: 50vh;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  #partner-carousel .row{
+    height: 50vh;
+  }
+  
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  /* FOR TABLETS AND PCs */
+
+
+  #header h1,
+  #edventure .section-title h1{
+    font-size: 60px;
+  }
+
+  /* ABOUT */
+  #about-us{
+    min-height: 50vh;
+  }
+
+  #about-us .section-title{
+    padding-top: 25px;
+  }
+  #about-us .section-data{
+    min-height: 50vh;
+  }
+  
+  #about-us .section-content{
+    text-align: left;
+    padding: 50px;
+  }
+  #about-us .section-title .border-bottom{
+    width: 10%;
+    /* border-bottom: 20px solid black; */
+  }
+
+  /* MISSION */
+  #mission{
+    min-height: 50vh;
+  }
+
+  #mission .section-data{
+    height: 50vh;
+  }
+  
+  #mission .section-content{
+    text-align: left;
+  }
+  #mission .section-title .border-bottom{
+    width: 10%;
+    /* border-bottom: 20px solid black; */
+  }
+  #mission .section-content{
+    text-align: left;
+    padding: 50px;
+  }
+
+  /* FOUNDER */
+  #founder,
+  #founder .row,
+  #founder .founder-details {
+    height: 50vh;
+  }
+
+  #founder .founder-image{
+    background-color: #1e73be;
+  }
+
+  #founder .founder-details p{
+    padding: 50px;
+  }
+
+  /* EDVENTURE */
+
+  
+
+  #edventure {
+    height: 100vh;
+  }
+  
+  #edventure .caption {
+    font-size: 35px;
+  }
+
+  #edventure .section-title{
+    height: 30vh;
+  }
+
+  #edventure .card-container{
+    display: flex;
+    align-content: space-between;
+    height: 70vh;
+  }
+  #edventure .card-container .card {
+    /* background-position: center -100px; */
+    background-color: rgba(0,0,0,0.6);
+    height: 50vh;
+    flex: 1;
+    margin: 10px;
+    background-position: center -100px;
+
+    /* filter: blur(20px); */
+  }
+
+  #partner-carousel .row{
+    height: 50vh;
+  }
+
+}
+
+
+@media only screen and (max-width: 575px) {
+  /* FOR XS ONLY */
+  #edventure{
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+  /* FOR SM ONLY */
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  /* FOR MD ONLY */
+  
+  #about-mission-container {
+      min-height: 100vh;
+  }
+
+  #about-us{
+    min-height: 100vh;
+  }
+
+  #mission{
+    min-height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 992px)  and (max-width: 1199px) {
+  /* FOR LG ONLY */
+}
+
+@media only screen and (min-width: 1200px) {
+  /* FOR XL ONLY */
+}

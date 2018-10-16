@@ -1,0 +1,306 @@
+.red {
+    color: #F44336;
+}
+
+.pink {
+    color: #e91e63;
+}
+
+.purple {
+    color: #9c27b0;
+}
+
+.indigo {
+    color: #3f51b5;
+}
+
+.blue {
+    color: #2196F3;
+}
+
+.cyan {
+    color: #00bcd4;
+}
+
+.teal {
+    color: #009688;
+}
+
+.green {
+    color: #4CAF50;
+}
+
+.orange {
+    color: #ff9800;
+}
+
+#header{
+  background-image: url(../../assets/img/our-approach-header.jpg);
+  background-attachment: fixed;
+  height: 101vh;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+
+#approach-content .our-process-content{
+    background-color: #1e73be;
+}
+
+#industry-domains {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#industry-domains .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#approach-content .our-process-image {
+    height: 0px;
+}
+
+#approach-content .we-believe-image {
+    height: 0px;
+}
+
+#our-approach-details .section-header {
+    background-color: rgb(252, 211, 7);
+    padding: 70px 30px 70px 30px;
+}
+
+.image-align{
+    margin: 0 auto;
+}
+
+.we-believe-image{
+    background-image: url(../../assets/img/weBelieve.jpg);
+}
+.our-process-image{
+    background-image: url(../../assets/img/ourProcess.jpg);
+}
+text{
+    font-size:4px; 
+    font-family:sans-serif;
+}
+
+text.title{
+    font-size: 6px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#educational-visits .carousel-text {
+    /* background-color: #1e73be; */
+    height: 50vh;
+}
+#educational-visits .carousel-contents{
+    padding: 0px;
+}
+
+#educational-visits  {
+    background-image: url(../../assets/img/approach.jpg);
+    color: white;
+}
+#educational-visits .section-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color:white;
+}
+
+#outcomes .subtitle{
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* FOR MOBILE DEVICES */
+
+    #industry-domains .image {
+        height: 20vh;
+        margin-bottom: 15px;
+    }
+
+    #industry-domains img{
+        height: 70%;
+    }
+
+    #industry-domains .image h5{
+        padding-top: 30px;
+    }
+
+    #approach-content .we-believe-content{
+        padding: 20px;
+    }
+
+    #approach-content .our-process-content{
+        padding: 10px;
+    }
+
+    #approach-content .our-process .our-process-image{
+        height: 40vh;
+    }
+
+    #our-approach-details .section-header h5{
+        font-size: 20px;
+    }
+
+    #educational-visits .carousel-text {
+        background-color: rgba(0, 0, 0, 0.178);
+        color: white;
+    }
+
+    #industrial-visits .image,
+    #outcomes .image {
+        min-height: 50vh;
+        margin: 0px;
+    }
+
+    #industrial-visits .image img,
+    #outcomes .image img{
+        width: 100%;
+    }
+
+    #industrial-visits .cards,
+    #outcomes .cards {
+        box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);        
+        padding: 0px;
+        border-radius: 10px 10px 10px 10px;
+        transform: scale(0.95);
+    }
+
+    #industrial-visits h1,
+    #outcomes h1,
+    #outcomes h4{
+        padding-left: 20px;
+    }
+
+    #industry-domains h5{
+        margin-bottom: 20px; 
+    }
+
+    #industry-domains p{
+        padding: 10px;
+    }
+    
+    
+  }
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+    /* FOR TABLETS AND PCs */
+
+    #header h1 {
+        font-size: 4.5rem;
+    }
+    #approach-content .we-believe,
+    #approach-content .our-process,
+    #approach-content .we-believe-content,
+    #approach-content .our-process-content {
+        min-height: 50vh;
+    }
+
+    #approach-content .we-believe-image{
+        min-height: 50vh;
+    }
+
+    #approach-content .our-process-image{
+        min-height: 50vh;
+    }
+
+    #industry-domains .icon{
+        margin-bottom: 20px;
+    }
+    #industry-domains .image{
+        margin: 0 auto;
+        width: 128px;
+        
+        margin-bottom: 40px;
+    }
+    #industry-domains .image img {
+        height: 185px;
+    }
+
+    .image img{
+        height: 80%;
+    }
+
+    #industry-domains .cards{
+        margin: auto;
+        margin-top: 12px;
+        position: relative;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0;
+        transform: scale(0.95);
+        transition: box-shadow 0.5s, transform 0.5s;
+      }
+      
+      #industry-domains .cards:hover {
+          transform: scale(1);
+          box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+      }
+    
+
+    #approach-content .we-believe-content,
+    #approach-content .our-process-content {
+        align-items: flex-start;
+        text-align: left;
+        padding: 50px;
+
+    }
+
+    #our-approach-details .section-header{
+        padding: 70px 50px 70px 50px;
+        background-color: rgb(252, 211, 7);
+
+    }
+
+    #our-approach-details .cards{
+        padding: 0px;
+        /* box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2); */
+    }
+
+    #our-approach-details p{
+        padding: 10px;
+    }
+
+    #industrial-visits,
+    #outcomes{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #industrial-visits img,
+    #outcomes img{
+        width: 100%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 575px) {
+    /* FOR XS ONLY */
+    
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width:767px) {
+    /* FOR SM ONLY */
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width:991px) {
+    /* FOR MD ONLY */
+
+  }
+  
+  @media only screen and (min-width: 992px)  and (max-width: 1199px) {
+    /* FOR LG ONLY */
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    /* FOR XL ONLY */
+  }
+  

@@ -1,0 +1,140 @@
+text{
+    font-size:4px; 
+    font-family:sans-serif;
+}
+
+text.title{
+    font-size: 6px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    min-height: 102vh;
+    background-image: url("../../assets/img/contact-header.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+#header h2 {
+    color: black;
+}
+
+#contact-area .contact-card{
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 50vh;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+}
+
+#contact-area input,
+#contact-area textarea {
+    background: transparent;
+    border: 1px solid rgb(56, 56, 56);
+    padding: 8px;
+    display: block;
+    margin: 20px 0px 0px 0px;
+    width: 80%;
+    color: rgb(46, 46, 46);
+}
+
+#contact-area .address-holder {
+    padding-left: 25px;
+}
+
+#map{
+    height: 60vh;
+}
+#footer{
+    background-color: #292929;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+
+
+
+agm-map{
+    height:60vh;
+}
+@media only screen and (max-width: 767px) {
+
+    /* FOR MOBILE DEVICES */
+
+    header{
+        padding-top: 90px;
+    }
+
+    #contact-area{
+        min-height: 55vh;
+    }
+    #contact-area .container-fluid,
+    #contact-area .row{
+        min-height: 55vh;
+    }
+    #contact-area .address-holder{
+        padding: 15px 5px 15px 5px;
+    }
+
+    #contact-area .contact-card{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    #contact-area .contact-form {
+        padding: 20px;
+    }
+
+    #footer{
+        padding: 40px 10px 40px 10px;
+    }
+    #footer .useful-links {
+        margin-bottom: 40px;
+    }
+    #footer .logo {
+        margin-bottom: 40px;
+    } 
+
+}
+  
+@media only screen and (min-width: 768px) {
+
+    /* FOR TABLETS AND PCs */
+
+    #header h1{
+        font-size: 4.5em;
+    }
+
+    #contact-area{
+        min-height: 55vh;
+        padding-left: 8vw;
+        padding-right: 8vw;
+
+    }
+    #contact-area .container-fluid,
+    #contact-area .row{
+        min-height: 55vh;
+    }
+    #contact-area .address-container{
+        height: 100%;
+    }
+    #contact-area .contact-form{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    #footer{
+        padding: 100px 20px 100px 20px;
+    }
+    #footer img {
+        width: 80%;
+    }
+    
+}

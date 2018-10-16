@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    height: 100vh;
+    background-image: url("../img/work-with-us-header.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+#work-with-us {
+    min-height: 100vh;
+}
+
+#work-with-us h1 {
+    padding: 20px;
+}
+
+.row-class{
+    padding: 50px;
+}
+
+
+  .icon{
+    margin-bottom: 20px;
+}
+.image{
+    margin: 0 auto;
+    width: 128px;
+    
+    margin-bottom: 40px;
+}
+.image img {
+    width: 128px;
+    height: 128px;
+}
+.cards{
+    margin: auto;
+    margin-top: 12px;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0;
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+    min-height: 20vh;
+    background-color: #1e73be;
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* FOR MOBILE DEVICES */
+
+    
+.cards{
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-wrap {
+      padding: 20px;
+  }
+  
+.cards img{
+    width:25%;
+    /* height: 100%; */
+}
+
+}
+  
+@media only screen and (min-width: 768px) {
+
+    /* FOR TABLETS AND PCs */
+
+    #work-with-us h1 {
+        padding: 20px;
+    }
+
+    #work-with-us p {
+        padding: 20px;
+    }
+
+    
+.cards{
+    box-shadow: 0;
+    padding: 20px;
+  }
+
+  .card-wrap {
+      padding: 20px;
+  }
+  
+.cards img{
+    width:25%;
+    /* height: 100%; */
+}
+  
+  .cards:hover {
+      transform: scale(1);
+      box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+  }
+    
+}

@@ -1,0 +1,234 @@
+body{
+    margin: 0px!important;
+    padding: 0px !important;
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;;
+}
+.vertical-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.horizontal-align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.background-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.white-font{
+    color: white;
+} 
+.black-font{
+  color: black!important;
+}
+.horizontal-align{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#footer {
+  color: white;
+  text-decoration: none;
+}
+#footer a{
+  color: white;
+  text-decoration: none;
+}
+#footer a:hover{
+  text-decoration: underline;
+}
+
+#MenuIcon,
+#MainMenu {
+    z-index: 99999;
+}
+
+#MenuIcon {
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top: 50px;
+    right: 30px;
+}
+
+#MenuIcon:hover {
+    cursor: pointer;
+}
+
+#MenuLine {
+    height: 4px;
+    width: 36px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s;
+}
+
+#MenuIcon:hover #MenuLine {
+    width: 40px;
+}
+
+#MenuLine::before {
+    content: '';
+    height: 4px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    transition: all .3s;
+}
+
+#MenuIcon:hover #MenuLine::before {
+    width: 50px;
+}
+
+#MenuLine::after {
+    content: '';
+    height: 4px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    margin-top: -10px;
+    transition: all .3s;
+}
+
+#MenuIcon:hover #MenuLine::after {
+    width: 50px;
+}
+
+#MainMenu {
+    height: 100vh;
+    width: 300px;
+    background-color: #181818;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    transition: all .5s ease-in-out;
+}
+
+#MainMenu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#MainMenu ul li {
+    margin: 20px;
+}
+
+#MainMenu ul li:hover {
+    cursor: pointer;
+}
+
+#MainMenu .line {
+    height: 2px;
+    width: 150px;
+    background-color: white;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    border-radius: 2px;
+    transform: translate(-50%);
+    transition: all .3s;
+}
+
+#MainMenu ul li:hover .line {
+    width: 180px;
+}
+
+#MainMenu a{
+    color: white;
+    text-decoration: none;
+}
+
+#navlogo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#close {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transform: translate(-50%);
+}
+
+#close:hover {
+    cursor: pointer;
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-left {
+    text-align: left;
+}
+
+#footer{
+    background-color: #292929;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* FOR MOBILE DEVICES */
+  #footer{
+      padding: 40px 10px 40px 10px;
+  }
+  #footer .useful-links {
+      margin-bottom: 40px;
+  }
+  #footer .logo {
+      margin-bottom: 40px;
+  } 
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* FOR TABLETS AND PCs */
+
+  #footer{
+      padding: 100px 20px 100px 20px;
+  }
+  
+  
+}

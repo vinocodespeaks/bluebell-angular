@@ -1,0 +1,127 @@
+#header{
+  background-image: url(../img/our-approach-header.jpg);
+  background-attachment: fixed;
+  height: 101vh;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+
+#approach-content .our-process-content{
+    background-color: #1e73be;
+}
+
+#industry-domains {
+    text-align: center;
+}
+
+#industry-domains .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image img{
+    /* width:100%; */
+    height: 100%;
+}
+
+.image-align{
+    margin: 0 auto;
+}
+
+.we-believe-image{
+    background: url(../img/architecture-backpack-backpacker-346824.jpg);
+}
+.our-process-image{
+    background: url(../img/adventure-albay-clouds-672358.jpg);
+}
+@media only screen and (max-width: 767px) {
+    /* FOR MOBILE DEVICES */
+    
+  }
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+    /* FOR TABLETS AND PCs */
+    #approach-content .we-believe,
+    #approach-content .our-process,
+    #approach-content .we-believe-content,
+    #approach-content .our-process-content {
+        min-height: 50vh;
+    }
+
+    #industry-domains .icon{
+        margin-bottom: 20px;
+    }
+    #industry-domains .image{
+        margin: 0 auto;
+        width: 128px;
+        
+        margin-bottom: 40px;
+    }
+    #industry-domains .image img {
+        width: 128px;
+        height: 128px;
+    }
+
+    #industry-domains .cards{
+        margin: auto;
+        margin-top: 12px;
+        position: relative;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0;
+        transform: scale(0.95);
+        transition: box-shadow 0.5s, transform 0.5s;
+      }
+      
+      #industry-domains .cards:hover {
+          transform: scale(1);
+          box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+      }
+    
+
+    #approach-content .we-believe-content,
+    #approach-content .our-process-content {
+        align-items: flex-start;
+        text-align: left;
+        padding: 50px;
+
+    }
+
+    #our-approach-details .section-header{
+        padding: 70px 30px 70px 30px;
+        background-color: #1e73be;
+
+    }
+
+    #our-approach-details .cards{
+        padding: 5px;
+        box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  
+  @media only screen and (max-width: 575px) {
+    /* FOR XS ONLY */
+    
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width:767px) {
+    /* FOR SM ONLY */
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width:991px) {
+    /* FOR MD ONLY */
+
+  }
+  
+  @media only screen and (min-width: 992px)  and (max-width: 1199px) {
+    /* FOR LG ONLY */
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    /* FOR XL ONLY */
+  }
+  
